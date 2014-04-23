@@ -13,7 +13,5 @@ def jogo(movimentos)
 		return "Vitoria papel"
 	end	
 
-	if(movimentos.include? "tesoura") && (movimentos.include? "papel")
-		return "Vitoria tesoura"
-	end
+	return "Vitoria tesoura" if(movimentos.include? "tesoura") && (movimentos.include? "papel")
 end
