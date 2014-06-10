@@ -14,5 +14,5 @@ def jogo(movimentos)
 	end	
 
 	return "Vitoria tesoura" if(movimentos.include? "tesoura") && (movimentos.include? "papel")
-	#Teste alteração Git
+	#Teste mais alteração Git
 end
